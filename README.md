@@ -1,24 +1,13 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+问题：
 
-Things you may want to cover:
+1. 修改.vue组件，js实时重新编译;  ```# yes```
 
-* Ruby version
+2. 前端文件有所修改，浏览器自动reload页面: ```hot reload```；  ```# no```
 
-* System dependencies
+3. 哪些文件会实时编译打包在```public/packs/``` ? ```# javascript/packs/*.js```，设置见 ```config/webpack/paths.yml```
 
-* Configuration
+!!4. 如何使```javascript/packs/```分文件夹里的js也编译？ 如 ```javascript/packs/test/*.js```
 
-* Database creation
+!!!5. js文件已重新编译成功（已查看验证了），刷新页面为何内容无更新？
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

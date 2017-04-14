@@ -8,7 +8,7 @@
 module.exports = {
   data: function () {
     return {
-      message: "Hello Vue!"
+      message: "Home? Help? test compiled Hello Vue!"
     }
   }
 }
