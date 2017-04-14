@@ -1,0 +1,14 @@
+<h1>Admin::Home#index</h1>
+<p>Find me in app/views/admin/home/index.html.erb</p>
+
+
+<div id="home">
+  <Hello message="Admin Home"></Hello>
+</div>
+
+
+
+<% content_for :javascript do %>
+<%= javascript_pack_tag 'admin/home' %>
+
+<% end %>

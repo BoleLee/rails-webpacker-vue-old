@@ -1,7 +1,6 @@
 <template>
   <div id="hello">
-    <p>{{ message }}</p>
-    <span>{{ info }}</span>
+    <p>{{ message }}, Hello!</p>
   </div>
 </template>
 
@@ -9,10 +8,10 @@
 module.exports = {
   data: function () {
     return {
-      message: "Home, Hello!",
-      info: 'test compiled js reload'
+      message: "Home"
     }
-  }
+  },
+  props: ['message']
 }
 </script>
 
