@@ -7,7 +7,9 @@
 
 3. 哪些文件会实时编译打包在```public/packs/``` ? ```# javascript/packs/*.js```，设置见 ```config/webpack/paths.yml```
 
+
 !!4. 如何使```javascript/packs/```分文件夹里的js也编译？ 如 ```javascript/packs/test/*.js```
 
-!!!5. js文件已重新编译成功（已查看验证了），刷新页面为何内容无更新？
+
+5. 当在```packs```下添加js文件，需重新启动```./bin/webpack-watcher```使其编译
 
