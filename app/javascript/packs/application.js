@@ -9,4 +9,16 @@
 
 console.log('Hello World from Webpacker')
 
+// import Vue from 'vue/dist/vue.esm';
+// import iView from 'iview';
+// import 'iview/dist/styles/iview.css';
+
+// Vue.use(iView);
+
+// import App from 'app.vue';    // 路由挂载
+
+// new Vue({
+//     el: '#app',
+//     render: h => h(App)
+// });
 

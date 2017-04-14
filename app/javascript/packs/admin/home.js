@@ -1,14 +1,6 @@
-import Vue from 'vue/dist/vue.esm'
-import Hello from '../../shared/hello.vue';
+import Home from '../../admin/home/index.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-
-  const index = new Vue({
-    el: '#home',
-    components: { Hello }
-  })
-
-
+  Home
 });
-
 
