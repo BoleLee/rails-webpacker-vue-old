@@ -1,5 +1,5 @@
-import Vue from 'vue/dist/vue.esm';
-// import iView from 'iview';
+import Vue from 'vue/dist/vue';
+// import iView from 'iview/dist/iview';
 // import 'iview/dist/styles/iview.css';
 
 // Vue.use(iView);
