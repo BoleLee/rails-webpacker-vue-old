@@ -1,12 +1,19 @@
 <div id="home">
-  <h3><%= @msg %></h3>
-  <Hello message="Admin Home"></Hello>
-  <!-- <Modal1></Modal1> -->
+  <h3><%= @msg %>111</h3>
+  <hello message="Admin Home"></hello>
+  <Button>Default</Button>
+  <Icon type="checkmark"></Icon>
+  <i-button @click="toggle()">Toggle Modal!</i-button>
+  <Modal v-model="visible" title="Welcome">欢迎使用 iView</Modal>
+
+  <test-modal></test-modal>
 </div>
 
 
 
 <% content_for :javascript do %>
 <%= javascript_pack_tag 'admin/home' %>
-
+<script>
+  console.log('test');
+</script>
 <% end %>

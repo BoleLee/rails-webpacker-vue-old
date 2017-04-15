@@ -1,5 +1,4 @@
 <template>
-    <Button type="primary" @click="modal1 = true">显示对话框</Button>
     <Modal
         v-model="modal1"
         title="普通的Modal对话框标题"
@@ -17,12 +16,13 @@ module.exports = {
             modal1: false
         }
     },
+    // props: ['modal1'],
     methods: {
         ok () {
-            this.$Message.info('点击了确定');
+            console.log('点击了确定');
         },
         cancel () {
-            this.$Message.info('点击了取消');
+            console.log('点击了取消');
         }
     }
 }
