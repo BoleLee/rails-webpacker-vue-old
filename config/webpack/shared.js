@@ -38,6 +38,8 @@ module.exports = {
       Vue$: 'vue/dist/vue.esm',
       iView: 'iview'
     }),
+    // TODO 使公共的依赖只加载一次
+    // new webpack.optimize.CommonsChunkPlugin()
   ],
 
   resolve: {

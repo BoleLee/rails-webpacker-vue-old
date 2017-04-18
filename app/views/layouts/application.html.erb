@@ -4,8 +4,9 @@
     <title>RailsWebpackerVue</title>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application' %>
+    <%= stylesheet_pack_tag 'admin/common' %>
+    <%= javascript_pack_tag 'admin/common' %>
+
     <%= yield :stylesheet %>
   </head>
 

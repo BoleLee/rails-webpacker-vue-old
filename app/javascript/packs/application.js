@@ -10,12 +10,3 @@
 console.log('Hello World from Webpacker')
 
 
-Vue.use(iView);
-
-// import App from 'app.vue';    // 路由挂载
-
-// new Vue({
-//     el: '#app',
-//     render: h => h(App)
-// });
-
