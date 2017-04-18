@@ -7,9 +7,8 @@
 
 import Vue from 'vue/dist/vue';
 import iView from 'iview';
-// TODO add less解析
-// import '../../admin/style-theme/index.less';
-import 'iview/dist/styles/iview.css';
+import '../../admin/style-theme/index.less';
+// import 'iview/dist/styles/iview.css';
 
 Vue.use(iView);
 

@@ -2,10 +2,11 @@
 <%= stylesheet_pack_tag 'admin/home' %>
 <% end %>
 
-<div id="home">
+<div id="home" style="width: 80%; margin: 0 auto;">
   <h3><%= @msg %>111</h3>
   <hello message="Admin Home"></hello>
-  <Button>Default</Button>
+  <!-- <Button>Default</Button> -->
+  <!-- <Button type="primary">Primary</Button> -->
   <Icon type="checkmark"></Icon>
   <i-button @click="toggle()">Toggle Modal!</i-button>
   <Modal v-model="visible" title="Welcome">欢迎使用 iView</Modal>
