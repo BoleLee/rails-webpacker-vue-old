@@ -5,12 +5,7 @@
 // });
 
 
-import Vue from 'vue/dist/vue';
-import iView from 'iview';
 import '../../admin/style-theme/index.less';
-// import 'iview/dist/styles/iview.css';
-
-Vue.use(iView);
 
 
 import Hello from '../../shared/hello.vue';
