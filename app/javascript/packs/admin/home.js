@@ -1,3 +1,10 @@
+import Vue from 'vue/dist/vue';
+import iView from 'iview';
+// import 'iview/dist/styles/iview.css';
+import '../../admin/style-theme/index.less';
+
+Vue.use(iView);
+
 
 import Hello from '../../shared/hello.vue';
 import TestModal from '../../admin/home/modal1.vue';
